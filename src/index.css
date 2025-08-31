@@ -1,4 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../assets/Georgia.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #262526;
+  --color-secondary: #dd1c1c;
+
+  --font-georgia: "Georgia", serif;
+}
+
+body {
+  font-family: Cabin, sans-serif;
+  color: var(--color-primary);
+}
 
 :root {
   box-sizing: border-box;
