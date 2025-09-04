@@ -2,8 +2,8 @@ import snowflake from "../assets/snowflake.png";
 
 function About() {
   return (
-    <section className="px-4 py-8 md:px-8 md:py-16">
-      <div className="mx-auto flex flex-col items-center justify-center gap-4 lg:max-w-[740px] lg:gap-10 xl:max-w-[1142px]">
+    <section className="px-4 py-8 md:px-8 md:py-32">
+      <div className="mx-auto flex flex-col items-center justify-center gap-4 lg:max-w-[740px] lg:gap-10 xl:max-w-[990px]">
         <img src={snowflake} alt="Snowflake" />
 
         <p className="font-georgia text-center text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
@@ -13,12 +13,12 @@ function About() {
           ervaring.
         </p>
 
-        <a
+        {/* <a
           href=""
-          className="bg-secondary font-georgia w-3/4 rounded-full px-4 py-3 text-center text-white sm:w-[194px]"
+          className="bg-secondary font-georgia hidden w-3/4 rounded-full px-4 py-3 text-center text-white sm:w-[194px] lg:inline-block"
         >
           TAFEL RESERVEREN
-        </a>
+        </a> */}
       </div>
     </section>
   );
