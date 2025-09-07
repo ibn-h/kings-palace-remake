@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 function Footer() {
   return (
-    <footer className="px-4 py-16 md:px-[79px] md:py-20">
+    <footer id="footer" className="px-4 py-16 md:px-[79px] md:py-20">
       <div className="flex flex-col items-center justify-center">
         <div className="flex w-full items-center justify-center lg:justify-between">
           <img src={logo} alt="Logo" />
@@ -20,31 +20,31 @@ function Footer() {
           <div className="font-georgia flex flex-col items-center justify-center gap-2 text-center text-sm md:items-start md:gap-6 md:text-left">
             <h4 className="text-primary font-georgia text-xl">SITEMAP</h4>
             <a
-              href=""
+              href="#hero"
               className="hover:text-secondary transition hover:underline"
             >
               WELCOME
             </a>
             <a
-              href=""
+              href="#menu"
               className="hover:text-secondary transition hover:underline"
             >
               MENU
             </a>
             <a
-              href=""
+              href="#feestmenu"
               className="hover:text-secondary transition hover:underline"
             >
               FEESTMENU
             </a>
             <a
-              href=""
+              href="#reservations"
               className="hover:text-secondary transition hover:underline"
             >
               RESERVATIONS
             </a>
             <a
-              href=""
+              href="#contact"
               className="hover:text-secondary transition hover:underline"
             >
               CONTACT
@@ -104,7 +104,7 @@ function Footer() {
         <div className="my-5 w-full border-t border-gray-300 lg:my-10"></div>
 
         <a
-          href="#top"
+          href="#hero"
           className="font-georgia hover:text-secondary text-center transition"
         >
           TERUG OMHOOG

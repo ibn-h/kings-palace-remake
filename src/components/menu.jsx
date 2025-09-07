@@ -2,7 +2,10 @@ import redFlake from "../assets/snowflake-menu.png";
 
 function Menu() {
   return (
-    <section className="bg-primary relative px-4 py-16 lg:px-8 lg:py-52">
+    <section
+      id="menu"
+      className="bg-primary relative px-4 py-16 lg:px-8 lg:py-52"
+    >
       <div className="mx-auto flex flex-col items-center justify-center text-center text-white xl:w-[782px]">
         <h2 className="font-georgia text-3xl lg:text-6xl">ONZE MENU</h2>
         <p className="mt-4 mb-6 leading-8 text-[#d4d3d4] md:text-xl">

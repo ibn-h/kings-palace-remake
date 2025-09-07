@@ -5,17 +5,20 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white px-4 py-4 shadow sm:px-8">
+    <header
+      id="header"
+      className="sticky top-0 z-50 bg-white px-4 py-4 shadow sm:px-8"
+    >
       <div className="flex items-center justify-between text-center">
         <a href="">
           <img src={logo} alt="logo" className="h-auto w-[194px]" />
         </a>
 
         <nav className="font-regular hidden items-center justify-center gap-5 text-base lg:flex">
-          <a href="" className="hover:text-secondary transition">
+          <a href="#hero" className="hover:text-secondary transition">
             WELCOME
           </a>
-          <a href="" className="hover:text-secondary transition">
+          <a href="#menu" className="hover:text-secondary transition">
             MENU
           </a>
           <a href="" className="hover:text-secondary transition">
