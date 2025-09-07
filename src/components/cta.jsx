@@ -2,14 +2,14 @@ import snowFlake from "../assets/red-snowflake.png";
 
 function CTA() {
   return (
-    <section className="px-4 md:px-[79px]">
-      <div className="bg-primary py-16 text-left text-white sm:text-center md:py-32">
-        <div className="mx-auto flex w-[982px] flex-col items-start justify-center sm:items-center">
+    <section className="bg-primary px-4 md:bg-none md:px-[79px]">
+      <div className="bg-primary py-16 text-center text-white sm:text-center md:py-32">
+        <div className="mx-auto flex flex-col items-center justify-center sm:items-center xl:w-[982px]">
           <h2 className="font-georgia text-3xl lg:text-4xl">
             GENIET VAN EEN SMAAKVOL MOMENT
           </h2>
           <img src={snowFlake} alt="" className="my-6" />
-          <p className="mb-8 text-[#d4d3d4] md:text-lg">
+          <p className="mb-8 leading-8 text-[#d4d3d4] md:text-xl">
             De King's Palace kernwaarden: begrip, respect en beleefdheid hebben
             voor een ijzersterke en positieve team spirit gezorgd. King's Palace
             gelooft dat dit afstraalt op de bediening en dat "een goed gevoel
@@ -17,7 +17,7 @@ function CTA() {
           </p>
           <a
             href=""
-            className="font-georgia text-primary w-1/2 rounded-full bg-white px-4 py-3 text-center sm:w-[194px]"
+            className="font-georgia bg-secondary w-[194px] rounded-full px-4 py-3 text-center text-white"
           >
             TAFEL RESERVEREN
           </a>

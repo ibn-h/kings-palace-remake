@@ -7,7 +7,7 @@ const images = [firstImg, secImg, thirdImg, fourthImg];
 
 function Gallery() {
   return (
-    <section className="p-4 py-16 md:px-[79px] md:py-16">
+    <section className="p-4 py-16 md:px-[79px] md:py-32">
       <div className="flex w-full flex-col items-center justify-center gap-4 md:items-start md:justify-between md:gap-8">
         <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
           <h2 className="font-georgia w-full text-center text-3xl md:w-auto md:text-left lg:text-6xl">
@@ -27,7 +27,7 @@ function Gallery() {
               key={idx}
               src={img}
               alt={`Galerij ${idx + 1}`}
-              className="w-full object-cover"
+              className="h-auto w-[400px] object-cover"
             />
           ))}
         </div>

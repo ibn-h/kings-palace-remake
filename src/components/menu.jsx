@@ -3,9 +3,9 @@ import React from "react";
 function Menu() {
   return (
     <section className="bg-primary px-4 py-16 lg:px-8 lg:py-52">
-      <div className="flex flex-col items-center justify-center text-center text-white">
+      <div className="mx-auto flex flex-col items-center justify-center text-center text-white xl:w-[782px]">
         <h2 className="font-georgia text-3xl lg:text-6xl">ONZE MENU</h2>
-        <p className="mt-4 mb-6 text-[#d4d3d4] md:max-w-[670px] md:text-lg">
+        <p className="mt-4 mb-6 leading-8 text-[#d4d3d4] md:text-xl">
           Hier kunt u al onze gerechten van ons restaurant ontdekken. Wij bieden
           zowel menu’s aan met enerzijds heerlijke Chinese gerechten, en
           anderzijds kleine Dim Sums. U bent altijd van harte welkom!
