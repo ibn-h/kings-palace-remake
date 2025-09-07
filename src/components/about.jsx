@@ -2,7 +2,10 @@ import snowflake from "../assets/snowflake.png";
 
 function About() {
   return (
-    <section className="px-4 py-8 md:px-8 md:py-32">
+    <section
+      className="px-4 py-8 md:px-8 md:py-32"
+      style={{ backgroundAttachment: "fixed" }}
+    >
       <div className="mx-auto flex flex-col items-center justify-center gap-4 lg:max-w-[740px] lg:gap-10 xl:max-w-[990px]">
         <img src={snowflake} alt="Snowflake" />
 

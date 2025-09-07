@@ -1,3 +1,5 @@
 ## Notes
 
-- Work each section out first including making it responsive then move on to the next section.
+- Add background images to menu section.
+- Add hover effects.
+- Find a why to make website dynamic.

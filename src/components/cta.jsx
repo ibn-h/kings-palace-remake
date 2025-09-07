@@ -2,7 +2,7 @@ import snowFlake from "../assets/red-snowflake.png";
 
 function CTA() {
   return (
-    <section className="bg-primary px-4 md:bg-none md:px-[79px]">
+    <section className="bg-primary px-4 md:px-[79px] xl:bg-transparent">
       <div className="bg-primary py-16 text-center text-white sm:text-center md:py-32">
         <div className="mx-auto flex flex-col items-center justify-center sm:items-center xl:w-[982px]">
           <h2 className="font-georgia text-3xl lg:text-4xl">
@@ -17,7 +17,7 @@ function CTA() {
           </p>
           <a
             href=""
-            className="font-georgia bg-secondary w-[194px] rounded-full px-4 py-3 text-center text-white"
+            className="hover:text-primary font-georgia bg-secondary w-[194px] rounded-full px-4 py-3 text-center text-white transition duration-300 hover:bg-white"
           >
             TAFEL RESERVEREN
           </a>

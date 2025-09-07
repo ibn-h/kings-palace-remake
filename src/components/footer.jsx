@@ -8,7 +8,7 @@ function Footer() {
           <img src={logo} alt="Logo" />
           <a
             href=""
-            className="bg-secondary font-georgia hidden w-[194px] rounded-full px-4 py-3 text-white lg:inline-block"
+            className="hover:bg-primary bg-secondary font-georgia hidden w-[194px] rounded-full px-4 py-3 text-white transition-all duration-300 lg:inline-block"
           >
             TAFEL RESERVEREN
           </a>
@@ -19,19 +19,69 @@ function Footer() {
         <div className="flex w-full flex-col items-center justify-center gap-10 text-[#5c5c5c] md:flex-row md:items-start md:justify-between">
           <div className="font-georgia flex flex-col items-center justify-center gap-2 text-center text-sm md:items-start md:gap-6 md:text-left">
             <h4 className="text-primary font-georgia text-xl">SITEMAP</h4>
-            <a href="">WELCOME</a>
-            <a href="">MENU</a>
-            <a href="">FEESTMENU</a>
-            <a href="">RESERVATIONS</a>
-            <a href="">CONTACT</a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              WELCOME
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              MENU
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              FEESTMENU
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              RESERVATIONS
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              CONTACT
+            </a>
           </div>
           <div className="font-georgia flex flex-col items-center justify-center gap-2 text-center text-sm md:items-start md:gap-6 md:text-left">
             <h4 className="text-primary font-georgia text-xl">SOCIALS</h4>
-            <a href="">FACEBOOK</a>
-            <a href="">PINTEREST</a>
-            <a href="">LINKEDIN</a>
-            <a href="">TWITTER</a>
-            <a href="">KINGSPALACE.COM</a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              FACEBOOK
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              PINTEREST
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              LINKEDIN
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              TWITTER
+            </a>
+            <a
+              href=""
+              className="hover:text-secondary transition hover:underline"
+            >
+              KINGSPALACE.COM
+            </a>
           </div>
 
           <div className="flex flex-col items-center justify-center gap-10 md:items-start md:justify-between">
@@ -53,7 +103,10 @@ function Footer() {
 
         <div className="my-5 w-full border-t border-gray-300 lg:my-10"></div>
 
-        <a href="#top" className="font-georgia text-center">
+        <a
+          href="#top"
+          className="font-georgia hover:text-secondary text-center transition"
+        >
           TERUG OMHOOG
         </a>
       </div>

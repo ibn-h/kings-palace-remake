@@ -15,7 +15,7 @@ function Gallery() {
           </h2>
           <a
             href=""
-            className="font-georgia bg-secondary hidden w-full rounded-full px-8 py-3 text-center text-white md:inline-block md:w-[194px]"
+            className="hover:bg-primary font-georgia bg-secondary hidden w-full rounded-full px-8 py-3 text-center text-white transition duration-300 md:inline-block md:w-[194px]"
           >
             ONTDEK MEER
           </a>

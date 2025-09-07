@@ -1,8 +1,8 @@
-import React from "react";
+import redFlake from "../assets/snowflake-menu.png";
 
 function Menu() {
   return (
-    <section className="bg-primary px-4 py-16 lg:px-8 lg:py-52">
+    <section className="bg-primary relative px-4 py-16 lg:px-8 lg:py-52">
       <div className="mx-auto flex flex-col items-center justify-center text-center text-white xl:w-[782px]">
         <h2 className="font-georgia text-3xl lg:text-6xl">ONZE MENU</h2>
         <p className="mt-4 mb-6 leading-8 text-[#d4d3d4] md:text-xl">
@@ -13,7 +13,7 @@ function Menu() {
 
         <a
           href=""
-          className="font-georgia text-primary w-[194px] rounded-full bg-white px-4 py-3 text-center"
+          className="font-georgia text-primary hover:bg-secondary w-[194px] rounded-full bg-white px-4 py-3 text-center transition duration-300 hover:text-white"
         >
           VOLLEDIG MENU
         </a>
